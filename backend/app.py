@@ -1,6 +1,6 @@
 from flask import Flask, request,jsonify, send_from_directory
-from config import app, db
 from cv_pdf import parser_v1
+from config import app
 import time
 import os
 
